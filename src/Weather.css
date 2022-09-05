@@ -19,9 +19,12 @@
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+  list-style-type: none;
 }
 
-.Weather img {
+.Weather canvas {
+  margin-right: 5px;
+  margin-top: 5px;
   height: 64px;
   width: 64px;
 }
