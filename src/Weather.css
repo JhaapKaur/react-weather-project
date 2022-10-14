@@ -23,10 +23,7 @@
 }
 
 .Weather canvas {
-  margin-right: 100px;
-  margin-top: 5px;
-  height: 64px;
-  width: 64px;
+  margin: 10px auto;
 }
 
 .Weather .temperature {
