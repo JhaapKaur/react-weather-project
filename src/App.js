@@ -11,7 +11,7 @@ function App() {
           <footer>
             This project was coded by Jhaap Kaur and is{" "}
             <a
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href="https://github.com/JhaapKaur/react-weather-project"
               target="_blank"
             >
