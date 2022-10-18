@@ -1,6 +1,6 @@
 .Weather {
   font-family: arial, sans-serif;
-  border: 1px solid #dadde1;
+  border: 1px solid #e653a1;
   padding: 16px;
   max-width: 600px;
   border-radius: 4px;
@@ -11,7 +11,7 @@
 .Weather h1 {
   font-size: 24px;
   font-weight: 100;
-  line-height: 29px;
+  line-height: 28px;
 }
 .WeatherInfo ul li {
   list-style: none;
@@ -19,12 +19,14 @@
 .weather li {
   font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 10px;
   list-style-type: none;
 }
 
 .Weather canvas {
-  margin: 10px auto;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 4px;
 }
 
 .Weather .temperature {
@@ -33,7 +35,6 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
-  margin-left: 10px;
 }
 
 .Weather .unit {
@@ -41,6 +42,6 @@
   font-size: 16px;
   font-weight: 400;
   position: relative;
-  line-height: 1;
+  line-height: 10px;
   top: -32px;
 }
